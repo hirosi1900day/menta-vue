@@ -1,0 +1,31 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:prod": "vite preview --mode production",
+    "preview": "vite preview --mode production"
+  },
+  "dependencies": {
+    "@vuepic/vue-datepicker": "^8.3.2",
+    "axios": "^1.6.8",
+    "chart.js": "^4.4.2",
+    "js-cookie": "^3.0.5",
+    "markdown-it": "^14.1.0",
+    "primeicons": "^7.0.0",
+    "primevue": "^3.52.0",
+    "vee-validate": "^4.12.7",
+    "vue": "^3.4.21",
+    "vue-chartjs": "^5.3.1",
+    "vue-router": "^4.3.0",
+    "vuejs-paginate-next": "^1.0.2",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0"
+  }
+}
